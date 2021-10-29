@@ -3,6 +3,7 @@ import planets_1 from '../../images/rocket_1.png';
 
 export const RocketA = styled.div`
   cursor: pointer;
+  
 `
 export const RocketAImg = styled.div`
   background: url(${planets_1}) no-repeat;
