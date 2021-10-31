@@ -1,7 +1,7 @@
 import * as S from './Earth.styles'
 import logo from '../../images/logoWhite.svg'
 
-export default function Earth(){
+export function Earth(){
   return(
     <S.Earth>
       <S.EarthImg>

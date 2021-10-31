@@ -1,5 +1,5 @@
 import { useState } from 'react/cjs/react.development';
-import HumanCard from '../HumanCard/HumanCard';
+import { HumanCard } from '../HumanCard/HumanCard';
 import * as S from './RocketA.styles'
 import vanessa from '../../images/vanessa.jpeg';
 
@@ -9,7 +9,7 @@ const humanA = {
   picture: vanessa
 }
 
-export default function RocketA(){
+export function RocketA(){
   const [rocketAIsOpen, setRocketAIsOpen] = useState(false);
 
   const toggleRockeAButton = (e) => {

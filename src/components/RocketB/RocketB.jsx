@@ -1,5 +1,5 @@
 import { useState } from 'react/cjs/react.development';
-import HumanCard from '../HumanCard/HumanCard';
+import { HumanCard } from '../HumanCard/HumanCard';
 import * as S from './RocketB.styles'
 import pedro from '../../images/pedro.jpeg'
 const humanB = {
@@ -8,7 +8,7 @@ const humanB = {
   picture: pedro
 }
 
-export default function RocketB(){
+export function RocketB(){
   const [rocketBIsOpen, setRocketBIsOpen] = useState(false);
 
   const toggleRockeBButton = (e) => {
