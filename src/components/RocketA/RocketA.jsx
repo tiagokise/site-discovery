@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react/cjs/react.development';
 import { HumanCard } from '../HumanCard/HumanCard';
 import * as S from './RocketA.styles'
@@ -9,7 +10,7 @@ const humanA = {
   picture: vanessa
 }
 
-export function RocketA(){
+export const RocketA = () => {
   const [rocketAIsOpen, setRocketAIsOpen] = useState(false);
   
   const toggleRockeAButton = (e) => {

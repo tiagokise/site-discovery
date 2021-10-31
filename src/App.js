@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { Earth } from './components/Earth/Earth';
 import { RocketA } from './components/RocketA/RocketA';
