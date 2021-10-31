@@ -3,15 +3,15 @@ import { HumanCard } from '../HumanCard/HumanCard';
 import * as S from './RocketA.styles'
 import vanessa from '../../images/vanessa.jpeg';
 
-const humanA = {
-  name: 'Vanessa Ferreira',
-  cargo: 'Frontend Developer',
-  picture: vanessa
-}
 
 export function RocketA(){
   const [rocketAIsOpen, setRocketAIsOpen] = useState(false);
-
+  const humanA = {
+    name: 'Vanessa Ferreira',
+    cargo: 'Frontend Developer',
+    picture: vanessa
+  }
+  
   const toggleRockeAButton = (e) => {
     setRocketAIsOpen(!rocketAIsOpen);
   };

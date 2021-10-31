@@ -2,15 +2,15 @@ import { useState } from 'react/cjs/react.development';
 import { HumanCard } from '../HumanCard/HumanCard';
 import * as S from './RocketB.styles'
 import pedro from '../../images/pedro.jpeg'
-const humanB = {
-  name: 'Pedro Raimondi',
-  cargo: 'Tech Lead',
-  picture: pedro
-}
 
 export function RocketB(){
   const [rocketBIsOpen, setRocketBIsOpen] = useState(false);
-
+  const humanB = {
+    name: 'Pedro Raimondi',
+    cargo: 'Tech Lead',
+    picture: pedro
+  }
+  
   const toggleRockeBButton = (e) => {
     setRocketBIsOpen(!rocketBIsOpen);
   };
