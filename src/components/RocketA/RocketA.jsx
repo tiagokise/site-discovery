@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react/cjs/react.development';
-import { HumanCard } from '../HumanCard/HumanCard';
+import { HumanCard } from '../HumanCard';
 import * as S from './RocketA.styles'
 import vanessa from '../../images/vanessa.jpeg';
 

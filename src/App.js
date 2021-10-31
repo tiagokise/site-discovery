@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { Earth } from './components/Earth/Earth';
-import { RocketA } from './components/RocketA/RocketA';
-import { RocketB } from './components/RocketB/RocketB';
+import { Earth } from './components/Earth';
+import { RocketA } from './components/RocketA';
+import { RocketB } from './components/RocketB';
 
 
 function App() {

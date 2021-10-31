@@ -1,0 +1,1 @@
+export { HumanCard } from './HumanCard'
